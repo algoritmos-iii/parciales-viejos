@@ -9,15 +9,15 @@ Por suerte, este equipo implementó varios tests, sin embargo **el modelo aún t
 1. Hay tres tipos de **combustibles: Madera,  Carbón y Gasoil.**
 2. Hay dos tipos de **motores**: uno de consumo **Universal** y otro **optimizado para Sólidos**.
     Según el motor que tenga el extractor y su combustible va tener un rendimiento determinado para generar una cantidad de menas. Ese rendimiento depende de las **siguientes reglas**:
-    a. Motor de consumo universal alimentado con:
-        i. Madera: 1 unidad de madera genera 13 joules de energía.
-        ii. Carbón : 1 unidad de carbón genera 26 joules.
-        iii. Gasoil: 1 unidad de gasoil genera 100 joules.
-    b. Motor de sólidos alimentado con:
-        Madera: 1 unidad de madera genera 26 joules de energía.
-        i. Carbón : 1 unidad de carbón genera 52 joules.
-        ii. Gasoil: 1 unidad de gasoil genera 25 joules.
-        iii. Los motores tienen un nivel de desgaste que afectan la cantidad de energía que transforma a partir del combustible.
+    1. Motor de consumo universal alimentado con:
+        - Madera: 1 unidad de madera genera 13 joules de energía.
+        - Carbón : 1 unidad de carbón genera 26 joules.
+        - Gasoil: 1 unidad de gasoil genera 100 joules.
+    2. Motor de sólidos alimentado con:
+        - Madera: 1 unidad de madera genera 26 joules de energía.
+        - Carbón : 1 unidad de carbón genera 52 joules.
+        - Gasoil: 1 unidad de gasoil genera 25 joules.
+        - Los motores tienen un nivel de desgaste que afectan la cantidad de energía que transforma a partir del combustible.
 
 Es decir, el motor de sólidos rinde el doble que el universal para la madera y el carbón, mientras que para el gasoil rinde un cuarto.
 
@@ -38,7 +38,7 @@ La solución a entregar debe cumplir con todas las heurísticas de diseño vista
 Tu misión es llevar adelante las mejoras nombradas en los 4 puntos anteriores. Este mensaje se autodestruirá en 4hs.
 ¡Suerte!
 
-##Notas:
+### Notas
 
-- Estas colaboraciones representan la división entera entre unidades (13*joule) // (5*joule), en este caso el objeto resultante es 2.
-- Estas colaboraciones representan el resto de la división entera entre unidades (13*joule) \\ (5*joule), en este caso el objeto resultante es 3 * joule.
+- Estas colaboraciones representan la división entera entre unidades (13 * joule) // (5 * joule), en este caso el objeto resultante es 2.
+- Estas colaboraciones representan el resto de la división entera entre unidades (13 * joule) \\ (5 * joule), en este caso el objeto resultante es 3 * joule.
