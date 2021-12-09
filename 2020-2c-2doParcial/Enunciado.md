@@ -21,22 +21,21 @@ La temporalidad de **transfer: anAmount from: aSourceWalletId to: aTargetWalletI
 
 ## Ayudas:
 
-1- Les vamos a entregar un código inicial. El mismo contiene:
-	a) Wallet - Una implementación inicial básica
-	b) Fintech - Sabe crear wallets (item 1 del ejercicio)
-	c) FintechTest - Tests de wallets (item 1 del ejercicio)
-	d) FiubaCOIN implementada, en el objeto Fintech
-		i) podemos crear “0.5 FiubaCOINs” con “0.5 * fintech coin”.
-	e) Primer iteración de una implementación de #balanceOf: aWalletId
-2- Pueden repasar los ejericios anteriores. Acuerdense que pueden usar clases o jerarquias que ya hayan hecho. Si usan algo evalúen cuán útiles son tal cual están y si no hay que adaptarlos o modificarlos.
-3- Prioricen la calidad del trabajo en este orden:
-	I) TDD (tener tests en un orden y granularidad acorde a TDD)
-	II) Modelo (nombres, no repetir código, claridad, etc)
-	III) Correctitud de tests (repetición de código, claridad, etc)
-	IV) Nombre de los tests (nombres claros de los tests)
+1. Les vamos a entregar un código inicial. El mismo contiene:
+	- Wallet - Una implementación inicial básica
+	- Fintech - Sabe crear wallets (item 1 del ejercicio)
+	- FintechTest - Tests de wallets (item 1 del ejercicio)
+	- FiubaCOIN implementada, en el objeto Fintech
+		- podemos crear “0.5 FiubaCOINs” con “0.5 * fintech coin”.
+	- Primer iteración de una implementación de #balanceOf: aWalletId
+2. Pueden repasar los ejericios anteriores. Acuerdense que pueden usar clases o jerarquias que ya hayan hecho. Si usan algo evalúen cuán útiles son tal cual están y si no hay que adaptarlos o modificarlos.
+3. Prioricen la calidad del trabajo en este orden:
+	- TDD (tener tests en un orden y granularidad acorde a TDD)
+	- Modelo (nombres, no repetir código, claridad, etc)
+	- Correctitud de tests (repetición de código, claridad, etc)
+	- Nombre de los tests (nombres claros de los tests)
 
-
-##Reglas y normas a cumplir para parcial remoto 
+## Reglas y normas a cumplir para parcial remoto 
 
 Siendo un parcial remoto que brinda la posibilidad de promoción, ​dentro de su propio breakout room particular​ cada alumno deberá cumplir con:
 
