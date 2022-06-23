@@ -33,3 +33,4 @@ Prioricen la calidad del trabajo en este orden:
 3. Correctitud de tests (repetición de código, claridad, etc)
 4. Nombre de los tests (nombres claros de los tests)
 
+[Solución en vivo](https://www.youtube.com/watch?v=WIMJ5fUHBD8&list=PLX7BIRwCcTrlJG9kWzh9tLAmqB40ScUdk&index=2)

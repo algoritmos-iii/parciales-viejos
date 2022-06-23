@@ -65,3 +65,4 @@ IMPORTANTE: Los docentes entrarán y saldrán de su breakout room particular pot
 
 **IMPORTANTE**: Al enviar la solución del parcial deben recibir una confirmación de recepción ANTES de retirarse del aula virtual de Zoom.
 
+[Solución en vivo](https://www.youtube.com/watch?v=DlGdlhmdttU&list=PLX7BIRwCcTrlJG9kWzh9tLAmqB40ScUdk&index=3)
