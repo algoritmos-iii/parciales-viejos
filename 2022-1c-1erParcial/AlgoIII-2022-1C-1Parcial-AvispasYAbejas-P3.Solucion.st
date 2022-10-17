@@ -21,70 +21,70 @@ test02EnElInicioDeLosTiemposNoHayHuevosDeAvispas
 	self assert: 0 equals: unHabitat cantidadDeHuevosDeAvispas.! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/20/2022 19:43:39'!
-test03LasAvispasMuerenAlCambiarDeAño
+test03LasAvispasMuerenAlCambiarDeAÃ±o
 	| unHabitat |
 	unHabitat := Habitat conAvispasComeOrugas: 2.	
 	
-	unHabitat avanzarUnAño.
+	unHabitat avanzarUnAÃ±o.
 	
 	self assert: 0 equals: unHabitat cantidadDeAvispasVivas.
 	! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/20/2022 19:44:52'!
-test04AlReproducirseUnaAvispaAlSiguienteAñoGestanUnaAvispaDescendiente
+test04AlReproducirseUnaAvispaAlSiguienteAÃ±oGestanUnaAvispaDescendiente
 	| unHabitat avispaQueDejaUnHuevo |
 	unHabitat := Habitat conAvispasComeOrugas: 2.	
 	unHabitat gestarCantidadDeOrugas: 1.
 	avispaQueDejaUnHuevo := unHabitat avispas first.
 	avispaQueDejaUnHuevo intentarReproducirse.
 	
-	unHabitat avanzarUnAño.
+	unHabitat avanzarUnAÃ±o.
 	
 	self assert: 1 equals: unHabitat cantidadDeAvispasVivas.
 	! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/20/2022 19:47:23'!
-test05ReproducirseUnaAvispaAlSiguienteAñoGestanUnaAvispaDescendientePeroNoPuedeGestarNingunaAlOtroAño
+test05ReproducirseUnaAvispaAlSiguienteAÃ±oGestanUnaAvispaDescendientePeroNoPuedeGestarNingunaAlOtroAÃ±o
 	| habitat avispaQueDejaUnaCria |
 	habitat := Habitat conAvispasComeOrugas: 2.	
 	habitat gestarCantidadDeOrugas: 1.
 	avispaQueDejaUnaCria := habitat avispas first.
 	avispaQueDejaUnaCria intentarReproducirse.
 	
-	habitat avanzarUnAño.
-	habitat avanzarUnAño.
+	habitat avanzarUnAÃ±o.
+	habitat avanzarUnAÃ±o.
 	
 	self assert: 0 equals: habitat cantidadDeAvispasVivas.
 	! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/22/2022 21:44:47'!
-test06AlReproducirseUnaAvispaComeOrugasAlSiguienteAñoGestanUnaDescendienteDeSuFirmaGenetica
+test06AlReproducirseUnaAvispaComeOrugasAlSiguienteAÃ±oGestanUnaDescendienteDeSuFirmaGenetica
 	| habitat avispaQueDejaUnHuevo |
 	habitat := Habitat conAvispasComeOrugas: 2.	
 	habitat gestarCantidadDeOrugas: 1.
 	avispaQueDejaUnHuevo := habitat avispas first.
 	avispaQueDejaUnHuevo intentarReproducirse.
 	
-	habitat avanzarUnAño.
+	habitat avanzarUnAÃ±o.
 	
 	self assert: 1 equals: (habitat cantidadDeAvispasVivasCumplanCon: [ : unaAvispa | unaAvispa tieneMismaFirmaGeneticaDe: avispaQueDejaUnHuevo ]).
 	! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/22/2022 21:45:11'!
-test07AlReproducirseUnaAvispaComePolillasAlSiguienteAñoGestanUnaDescendienteDeSuFirmaGenetica
+test07AlReproducirseUnaAvispaComePolillasAlSiguienteAÃ±oGestanUnaDescendienteDeSuFirmaGenetica
 	| habitat avispaQueDejaUnHuevo |
 	habitat := Habitat conAvispasComePolillas: 2.	
 	habitat gestarCantidadDePolillas: 1.
 	avispaQueDejaUnHuevo := habitat avispas first.
 	avispaQueDejaUnHuevo intentarReproducirse.
 	
-	habitat avanzarUnAño.
+	habitat avanzarUnAÃ±o.
 	
 	self assert: 1 equals: (habitat cantidadDeAvispasVivasCumplanCon: [ : unaAvispa | unaAvispa tieneMismaFirmaGeneticaDe: avispaQueDejaUnHuevo ]).
 	! !
 
 !CicloReproductivoDeAvispasTest methodsFor: 'tests' stamp: 'JMB 5/22/2022 21:45:22'!
-test08AlReproducirseUnaAvispaLadronaAlSiguienteAñoGestanUnaDescendienteDeSuFirmaGenetica
+test08AlReproducirseUnaAvispaLadronaAlSiguienteAÃ±oGestanUnaDescendienteDeSuFirmaGenetica
 	| habitat avispaQueDejaUnHuevo avispaQueRoba |
 	habitat := Habitat conAvispasComeOrugas: 1 ladronas: 	1.
 	habitat gestarCantidadDeOrugas: 1.
@@ -93,7 +93,7 @@ test08AlReproducirseUnaAvispaLadronaAlSiguienteAñoGestanUnaDescendienteDeSuFirma
 	avispaQueDejaUnHuevo intentarReproducirse.
 	avispaQueRoba intentarReproducirse.
 	
-	habitat avanzarUnAño.
+	habitat avanzarUnAÃ±o.
 	
 	self assert: 1 equals: (habitat cantidadDeAvispasVivasCumplanCon: [ : unaAvispa | unaAvispa tieneMismaFirmaGeneticaDe: avispaQueRoba ]).
 	! !
@@ -614,7 +614,7 @@ tomarUnaPolilla
 
 
 !Habitat methodsFor: 'ciclo' stamp: 'JMB 5/20/2022 21:05:13'!
-avanzarUnAño
+avanzarUnAÃ±o
 	avispas := self gestarNuevaGeneracionDeAvispas.
 	self consumirHuevosDeAvispas.! !
 
