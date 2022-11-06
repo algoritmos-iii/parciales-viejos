@@ -1,5 +1,7 @@
 # Primer Parcial 1c 2021 - Algoritmos 3 - FIUBA:
 
+[Solución en vivo](https://www.youtube.com/watch?v=r2iB3nDfJ-s&list=PLX7BIRwCcTrnESpB1___9dPi1O3bUuGan&index=5)
+
 Nuestro modelo del extractor de **Factorio**, que hemos estado trabajando al principio del cuatrimestre, ha sido evolucionado por otro equipo de desarrollo. Le han agregado la capacidad de extraer carbón con diferente rendimiento en base al motor y al combustible que tengan dichos extractores. Soportando diferentes tipos de motores y combustibles. ¡Ahora es nuestro turno de mejorarlo aplicando las técnicas y herramientas que hemos visto en la materia!.
 
 Por suerte, este equipo implementó varios tests, sin embargo **el modelo aún tiene algunas falencias a nivel diseño que debemos resolver.**
