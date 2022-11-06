@@ -1,5 +1,7 @@
 # Enunciado
 
+[Solución en vivo](https://www.youtube.com/watch?v=WIMJ5fUHBD8&list=PLX7BIRwCcTrnESpB1___9dPi1O3bUuGan&index=2)
+
 Nuestro trabajo en Factorio ha sido un éxito, nuestros clientes han quedado muy contentos/as y quieren incorporar una nueva idea, un separador de menas, y han confiado en nosotres para llevar adelante este desarrollo.
 
 Un separador de menas es una máquina que tiene un ingreso de menas y debe estar conectado a dos destinos, un destino primario y otro secundario, y cada vez que transporta tiene que despachar las menas a alguno de sus dos destinos. 
@@ -33,4 +35,3 @@ Prioricen la calidad del trabajo en este orden:
 3. Correctitud de tests (repetición de código, claridad, etc)
 4. Nombre de los tests (nombres claros de los tests)
 
-[Solución en vivo](https://www.youtube.com/watch?v=WIMJ5fUHBD8&list=PLX7BIRwCcTrlJG9kWzh9tLAmqB40ScUdk&index=2)

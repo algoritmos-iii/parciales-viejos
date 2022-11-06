@@ -1,3 +1,5 @@
+[Solución en vivo](https://www.youtube.com/watch?v=DlGdlhmdttU&list=PLX7BIRwCcTrlJG9kWzh9tLAmqB40ScUdk&index=3)
+
 ## Enunciado
 Hoy nos toca incursionar en el dominio de las denominadas fintech (contracción de 'Finanzas' y 'Tecnología'), o sea una especie de banco digital. El primer servicio a implementar es una criptomoneda que se llamará FiubaCOIN. Para poder operar con dicha criptomoneda, la fintech ofrecerá los siguientes servicios:
 
@@ -64,5 +66,3 @@ IMPORTANTE: Los docentes entrarán y saldrán de su breakout room particular pot
 5. Realizar la entrega enviando mail a la lista de Docentes ​fiuba-algoritmos-iii-doc@googlegroups.com con el Asunto: "Nro Padrón: nnnn - Solución Segundo Parcial 2c2020"
 
 **IMPORTANTE**: Al enviar la solución del parcial deben recibir una confirmación de recepción ANTES de retirarse del aula virtual de Zoom.
-
-[Solución en vivo](https://www.youtube.com/watch?v=DlGdlhmdttU&list=PLX7BIRwCcTrlJG9kWzh9tLAmqB40ScUdk&index=3)
